@@ -1,0 +1,28 @@
+{
+  "name": "auralite",
+  "version": "0.1.0",
+  "description": "todo",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js,.ts src/",
+    "start": "tsc --skipLibCheck && node dist/index.js",
+    "build": "tsc --skipLibCheck",
+    "cleanup": "rm -r ./dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whamer100/auralite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "eslint": "^9.29.0",
+    "globals": "^16.2.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.34.0"
+  }
+}
